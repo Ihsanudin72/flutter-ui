@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/basic/bottom.dart';
+import 'package:flutter_ui/basic/circle_avatar.dart';
+import "package:flutter_ui/basic/container.dart";
+import 'package:flutter_ui/basic/icon.dart';
+import 'package:flutter_ui/basic/scaffold.dart';
+import 'package:flutter_ui/basic/text.dart';
+import 'package:flutter_ui/navigator/pop.dart';
+import 'package/flutter_ui/layout/center.dart';
 import 'package:flutter_ui/navigator/bottom_nav.dart';
 import 'package:flutter_ui/halaman2.dart';
 import 'package:flutter_ui/halaman3.dart';
@@ -60,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-      body: Hal2(),
+      body: MyPop(),
     );
   }
 }
