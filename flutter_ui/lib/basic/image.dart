@@ -12,7 +12,7 @@ class MyImage extends StatelessWidget {
             topLeft: Radius.circular(20),
             topRight: Radius.circular(20),
           ),
-          child: Image.asset("assets/images/me&you.jpg")),
+          child: Image.asset("assets/images/perpusnas.jpg")),
     );
   }
 }
