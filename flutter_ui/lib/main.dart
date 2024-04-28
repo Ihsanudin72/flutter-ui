@@ -5,6 +5,7 @@ import 'package:flutter_ui/halaman3.dart';
 import 'package:flutter_ui/halaman4.dart';
 import 'package:flutter_ui/halaman5.dart';
 import 'package:flutter_ui/navigator/drawer.dart';
+import 'package:flutter_ui/basic/image.dart';
 import 'package:flutter_ui/navigator/push.dart';
 import 'package:flutter_ui/navigator/silverappbar.dart';
 import 'package:flutter_ui/navigator/tabbar.dart';
@@ -59,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-      body: MyDrawer(),
+      body: Hal2(),
     );
   }
 }
